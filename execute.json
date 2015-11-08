@@ -1,0 +1,15 @@
+{
+    "action" : "execute",
+    "id" : 0,
+    "input" :
+    {
+        "prog.cpp" : "I2luY2x1ZGUgPGlvc3RyZWFtPgoKdXNpbmcgbmFtZXNwYWNlIHN0ZDsKCmludCBtYWluKCkKewogICAgY291dCA8PCAiSGVsbG8gV29ybGQhIiA8PCBlbmRsCiAgICByZXR1cm4gMDsKfQo="
+    },
+    "output":
+    [
+        "prog"
+    ],
+    "time" : 5.0,
+    "memory" : 1024,
+    "command" : "g++ prog.cpp -std=c++11 -static -o prog"
+}
